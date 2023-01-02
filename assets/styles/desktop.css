@@ -9,6 +9,8 @@
 body {
   font-family: Lato, sans-serif;
 }
+
+
 @media screen and (min-width: 768px){
   .nav-mobile-version{
     display: none;
@@ -45,4 +47,238 @@ body {
 .menu-link.top {
   color: #fff;
 }
+
+.main-nav-desktop{
+  display: flax;
+  background-color: white;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+.text h3 {
+  font-size: 13px;
+  color: #1c1e22;
+  line-height: 10px;
+}
+
+.main-nav-links{
+  display: flex;
+  justify-content: center;
+  margin-right: 250px;
+  padding: 20px 0;
+  margin-top: -50px;
+  margin-left: 200px;
+  width: 100%;
+  gap:20px;
+  /* border: 1px solid black; */
+}
+.menu-link.bottom-first {
+  color: #e64533;
+}
+
+.menu-link.bottom-cc {
+  border: 3px solid #c53f30;
+  color: #c53f30;
+}
+
+/* Hero SECTION */
+
+.hero-section{
+  /* background-image: url(/assets/images/printer.jpg); */
+  background-repeat: no-repeat;
+  /* opacity: 0.2; */
+  height: 750px;
+  position: relative;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin-left: 10%;
+  padding-top: 50px;
+  position:absolute;
+  border: 1px solid black;
+}
+.welcome-intro {
+  font-size: 18px;
+  color: #ec5242;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-heading {
+  padding: 16px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #ec5242;
+}
+.hero-message {
+  max-width: 550px;
+  height: auto;
+  line-height: 30px;
+  border: 3px solid #fff;
+  background-color: #f7f7f7;
+  padding: 1px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.hero-message > p {
+  padding: 4px;
+  /* padding-top: 20px; */
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #272a31;
+}
+.hero-date {
+  margin-bottom: 100px;
+  padding: 0 10px;
+}
+.hero-date > h2 {
+  line-height: 30px;
+  font-size: 4vw;
+  padding-top: 50px;
+  color: #272a31;
+  margin-bottom: 30px;
+}
+.hero-date h5 {
+  font-size: 1.3rem;
+  padding-top: 10px;
+  color: #272a31;
+}
+.main-programs {
+  background-image:
+    linear-gradient(
+      283deg,
+      rgba(43, 40, 40, 0.04) 0%,
+      rgb(228 228 228 / 4%) 30%,
+      rgba(26, 24, 24, 0.04) 30%,
+      rgb(130 130 130 / 4%) 49%,
+      rgba(48, 46, 46, 0.04) 49%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      297deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 20%,
+      rgb(130 130 130 / 4%) 20%,
+      rgb(130 130 130 / 4%) 60%,
+      rgb(31 31 31 / 4%) 60%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      242deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 29%,
+      rgb(130 130 130 / 4%) 29%,
+      rgb(130 130 130 / 4%) 48%,
+      rgb(31 31 31 / 4%) 48%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(90deg, rgb(0 0 0 / 91%), rgb(0 0 0 / 91%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  height: 480px;
+  width: 100%;
+  margin-top: 30px;
+}
+#program-footer {
+  text-transform: uppercase;
+  text-decoration: underline;
+  box-sizing: border-box;
+  padding: 30px;
+  color: #fff;
+}
+.program-container{
+  display: flex;
+  color: white;
+  max-width: 900px;
+  padding: 5px;
+}
+
+.all-programs{
+  margin: 3px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+.all-programs:hover{
+  border: 2px solid rgb(214, 71, 19);
+  transform: translate(0.5s) ;
+}
+
+.podium {
+  padding: 10px;
+  align-items: center;
+  background-image:
+    radial-gradient(
+      circle at 99% 33%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 16%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 43%,
+      transparent 43%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 99% 25%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 57% 88%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 86%,
+      transparent 86%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 82% 78%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(40 37 37),
+      rgb(40 37 37)
+    );
+  height: 100%;
+}
+
+.podium > h2 {
+  color: #ec5242;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.podium > p {
+  padding: 10px 0;
+  font-size: 15px;
+  color: white;
+}
+
 }

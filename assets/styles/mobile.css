@@ -148,6 +148,35 @@ body {
   .main-programs{
     min-height: 900px;
     margin-top: 20px;
+    background-image:
+    linear-gradient(
+      283deg,
+      rgba(43, 40, 40, 0.04) 0%,
+      rgb(228 228 228 / 4%) 30%,
+      rgba(26, 24, 24, 0.04) 30%,
+      rgb(130 130 130 / 4%) 49%,
+      rgba(48, 46, 46, 0.04) 49%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      297deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 20%,
+      rgb(130 130 130 / 4%) 20%,
+      rgb(130 130 130 / 4%) 60%,
+      rgb(31 31 31 / 4%) 60%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      242deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 29%,
+      rgb(130 130 130 / 4%) 29%,
+      rgb(130 130 130 / 4%) 48%,
+      rgb(31 31 31 / 4%) 48%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(90deg, rgb(0 0 0 / 91%), rgb(0 0 0 / 91%));
   }
   .program-container{
     display: flex;
@@ -156,7 +185,9 @@ body {
     border: 1px solid black;
     height: auto;
     padding: 20px;
+    gap: 30px;
   }
+  
 
   .podium{
     display: flex;
@@ -164,20 +195,64 @@ body {
     padding: 3px 20px;
     margin-right: 0 auto;
     height: 100px;
-    gap: 50px;
+    gap: 100px;
+    background-image:
+    radial-gradient(
+      circle at 99% 33%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 16%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 43%,
+      transparent 43%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 99% 25%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 57% 88%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 86%,
+      transparent 86%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 82% 78%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(40 37 37),
+      rgb(40 37 37)
+    );
+  height: 100%;
+
   }
   .podium > p{
     text-align: start;
     font-size: 3vw;
     width: 70%;
+    color: #fdfdf7;
     margin-left: auto;
   }
   .podium > h2{
     font-size: 3vw;
     text-align: start;
+    color: white;
   }
   .all-programs{
-    border: 1px solid black;
     height: 100px;
     padding: 0;
   }
