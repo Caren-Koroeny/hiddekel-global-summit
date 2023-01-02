@@ -9,3 +9,40 @@
 body {
   font-family: Lato, sans-serif;
 }
+@media screen and (min-width: 768px){
+  .nav-mobile-version{
+    display: none;
+  }
+  a {
+    color: black;
+  }
+
+  li,
+  a {
+  text-decoration: none;
+  list-style-type: none;
+}
+  nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.top-navbar{
+  background-color: #272a31;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15%;
+  width: 100%;
+}
+.top-nav{
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+.fa-brands,
+.menu-link.top {
+  color: #fff;
+}
+}

@@ -40,6 +40,8 @@ body {
   .humberger-menu.change .menu-link-bar.span-one {
     transform: translate(0, 11px) rotate(-45deg);
     z-index: 3;
+    margin-top:20% ;
+    list-style: none;
     background-color: #fdfdf7;
   }
 
@@ -80,12 +82,132 @@ body {
     gap: 40px;
     width: 100%;
     padding-top: 50px;
+    list-style: none;
   }
 
   .menu-link-bottom {
-    color: #818181;
+    color: #ebe6e6;
     font-size: 5vw;
-    font-weight: 700;
-    margin: 20px;
+    font-weight: 70;
+    padding: 10%;
+    list-style: none;
+    margin-left: 20px;
+    
   }
+  a{
+    text-decoration: none;
+  }
+
+  /*Hero section  */
+
+  .hero-section{
+    background-image: url(/assets/images/mobile_intro_bg.png);
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+  }
+  .hero-container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    padding-top:200px;
+  }
+
+  .welcome-intro{
+    padding: 0 40px;
+    color: red;
+  }
+
+  .hero-heading{
+    margin-left: 40px;
+    padding-top: 20px;
+    color: rgb(211, 35, 35);
+
+  }
+
+  .hero-message{
+    margin-top: 20%;
+    margin-left: 40px;
+    border: 1px solid black;
+    background-color: #fdfdf7;
+    font-size: 25px;
+
+  }
+
+  .hero-date{
+    padding: 0 40px;
+    padding-top: 10%;
+
+  }
+
+  .hero-container > p{
+    font-size: 10px;
+  }
+
+  /* Mobile program section */
+  .main-programs{
+    min-height: 900px;
+    margin-top: 20px;
+  }
+  .program-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+  }
+
+  .podium{
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    margin-right: 0 auto;
+    height: 100px;
+    gap: 50px;
+  }
+  .podium > p{
+    text-align: start;
+    font-size: 3vw;
+    width: 70%;
+    margin-left: auto;
+  }
+  .podium > h2{
+    font-size: 3vw;
+    text-align: start;
+  }
+  .all-programs{
+    border: 1px solid black;
+    height: 100px;
+    padding: 0;
+  }
+
+  .bottom-title{
+    visibility: hidden;
+    position: relative;
+  }
+  .bottom-title::after {
+    visibility: visible;
+    position: absolute;
+    margin-left: 20%;
+    content: "Hiddekel Designs Print Expo Summit";
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 28px 7px;
+    background-color: #f72509d2;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 4px;
+  }
+  #program-footer {
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #df210c;
+    margin-left: -50%;
+    margin-top: -20%;
+  }
+
 }
