@@ -104,7 +104,6 @@ body {
   max-width: 900px;
   margin-left: 10%;
   padding-top: 50px;
-  position:absolute;
   border: 1px solid black;
 }
 .welcome-intro {
@@ -132,6 +131,16 @@ body {
   margin-top: 30px;
   border-radius: 3px;
 }
+.hero-title{
+  width: 100%;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: url(/assets/images/orange.jpg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 .hero-message > p {
   padding: 4px;
   /* padding-top: 20px; */
@@ -157,42 +166,15 @@ body {
   color: #272a31;
 }
 .main-programs {
-  background-image:
-    linear-gradient(
-      283deg,
-      rgba(43, 40, 40, 0.04) 0%,
-      rgb(228 228 228 / 4%) 30%,
-      rgba(26, 24, 24, 0.04) 30%,
-      rgb(130 130 130 / 4%) 49%,
-      rgba(48, 46, 46, 0.04) 49%,
-      rgb(31 31 31 / 4%) 100%
-    ),
-    linear-gradient(
-      297deg,
-      rgb(228 228 228 / 4%) 0%,
-      rgb(228 228 228 / 4%) 20%,
-      rgb(130 130 130 / 4%) 20%,
-      rgb(130 130 130 / 4%) 60%,
-      rgb(31 31 31 / 4%) 60%,
-      rgb(31 31 31 / 4%) 100%
-    ),
-    linear-gradient(
-      242deg,
-      rgb(228 228 228 / 4%) 0%,
-      rgb(228 228 228 / 4%) 29%,
-      rgb(130 130 130 / 4%) 29%,
-      rgb(130 130 130 / 4%) 48%,
-      rgb(31 31 31 / 4%) 48%,
-      rgb(31 31 31 / 4%) 100%
-    ),
-    linear-gradient(90deg, rgb(0 0 0 / 91%), rgb(0 0 0 / 91%));
+  background-image:url(/assets/images/prg.jpg);
   display: flex;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   color: white;
   flex-direction: column;
   height: 480px;
-  width: 100%;
+  max-width: 100%;
   margin-top: 30px;
 }
 #program-footer {
@@ -202,11 +184,24 @@ body {
   padding: 30px;
   color: #fff;
 }
+#program-heading{
+  color: white;
+  margin-top: -90px;
+}
+.line{
+  width: 45px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #e03623;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 .program-container{
   display: flex;
   color: white;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 5px;
+  gap: 20px;
 }
 
 .all-programs{
@@ -281,4 +276,55 @@ body {
   color: white;
 }
 
+
+.speakers-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.speaker-container {
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-text {
+  width: 60%;
+  margin: 10px;
+}
+.speaker-img{
+  
+}
+
+.para {
+  padding: 0 10px;
+  font-size: 0.8rem;
+  color: #ec5242;
+  font-style: italic;
+}
+
+.bio {
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.name {
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.speaker-heading {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 20px;
+  color: #272a31;
+}
 }
