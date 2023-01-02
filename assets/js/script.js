@@ -1,6 +1,6 @@
 const humberger = document.querySelector(".humberger-menu");
-const navMenu = document.querySelector(".lower-menu-mobile");
-const menuItem = document.querySelectorAll(".menu-link-lower");
+const navMenu = document.querySelector(".bottom-menu-mobile");
+const menuItem = document.querySelectorAll(".menu-link-bottom");
 
 // Open the pop up menu
 humberger.addEventListener("click", () => {
