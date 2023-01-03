@@ -324,5 +324,26 @@ body {
     color: #ec5242;
   }
 
+  .top-footer{
+    display: none;
+  }
+  .bottom-footer{
+    background-color: #272a31;
+  }
+  .log-hiddekel{
+   margin-left: 20px;
+   margin-top: 25px;
+  }
+  .hiddekel-text-footer{
+    color: #fdfdf7;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: -18%;
+  }
+  .copy-right{
+    color: #fdfdf7;
+    padding: 10px;
+    margin-left: 27%;
+  }
 
 }
