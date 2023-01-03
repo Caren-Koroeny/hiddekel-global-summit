@@ -145,7 +145,7 @@ body {
 
   .hero-date{
     padding: 0 40px;
-    padding-top: 10%;
+  
 
   }
 
@@ -337,13 +337,15 @@ body {
   .hiddekel-text-footer{
     color: #fdfdf7;
     padding: 10px;
-    margin-left: 30%;
-    margin-top: -18%;
+    margin-left: 10%;
+ 
   }
   .copy-right{
     color: #fdfdf7;
     padding: 10px;
-    margin-left: 27%;
+    margin-left: 10%;
   }
-
+.main-header-video{
+  display: none;
+}
 }
