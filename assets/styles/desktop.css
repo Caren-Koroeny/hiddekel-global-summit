@@ -396,19 +396,20 @@ body {
 
   .footer-logo {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     padding: 20px;
-    /* margin-left: 30; */
+    margin-left: 40px;
   }
   .log-hiddekel{
-    margin-top: -30px;
+    margin-top: -20px;
   }
   .hiddekel-name {
     font-size: 35px;
   }
 
   .copy-right {
-    margin-left: 20%;
+    margin-left: 50px;
+    width: 500px;
   }
 
   .see-more-btn {
