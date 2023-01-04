@@ -78,13 +78,12 @@ body {
 
   .main-nav-links {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
-    width: 100%;
-    padding-top: 50px;
-    list-style: none;
+    gap: 30px;
+    padding: 20px 0;
+    margin-top: -80px;
+    margin-left: 200px;
+    gap:20px;
   }
 
   .menu-link-bottom {
@@ -101,7 +100,7 @@ body {
     line-height: 1
 }
 .about-hero {
-  background-image: url(/assets/images/mobile_intro_bg.png);
+  background-image: url(../images/mobile_intro_bg.png);
   background-repeat: no-repeat;
 
 }
