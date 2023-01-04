@@ -88,7 +88,7 @@ body {
 
 
 .hero-section{
-  background-image: url(https://www.printingunited.com/wp-content/uploads/2022/04/PRINTING-United-19-Show-Floor_Apparel-Digital-Textile-0064_bw-1024x683.jpg);
+  background-image: url(/assets/images/mobile_intro_bg.png);
   position: relative;
   padding-bottom: -55px;
   background-position: center;
@@ -100,8 +100,7 @@ body {
   height: 100%;
   margin-right: 60%;
   flex-direction: column;
-  -webkit-backdrop-filter: brightness(60%) saturate(50%);
-  backdrop-filter: brightness(20%) saturate(30%);
+  
 }
 .welcome-intro {
   font-size: 18px;
@@ -155,20 +154,20 @@ body {
   line-height: 30px;
   font-size: 4vw;
   padding-top: 50px;
-  color: #ffffff;
+  color: #585252;
   margin-bottom: 30px;
   margin-left: 5%;
   
 }
 .hero-date > h3{
-  color: white;
+  color: rgb(78, 74, 74);
   margin-left: 5%;
   margin-top: -2px;
 }
 .hero-date > h5 {
   padding-top: 10px;
   margin-left: 5%;
-  color: #ffffff;
+  color: #5e5858;
 }
 .main-programs {
   background-image:url(/assets/images/prg.jpg);
@@ -343,123 +342,33 @@ body {
   margin-left: 40%;
 
 }
-
-.slick-slide {
-  margin: 0px 20px;
+/* Clients Section */
+#client-section {
+  position: relative;
 }
 
-.slick-slide img {
+#client-section::before {
+  content: "";
+  position: absolute;
+  background: url(https://i.postimg.cc/yN9mcF9m/client.jpg);
   width: 100%;
-}
-
-.slick-slider
-{
-  margin-top: 40px;
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-          user-select: none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-  -ms-touch-action: pan-y;
-      touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-  position: relative;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-.slick-list:focus
-{
-  outline: none;
-}
-.slick-list.dragging
-{
-  cursor: pointer;
-  cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-  -webkit-transform: translate3d(0, 0, 0);
-     -moz-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-       -o-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-  position: relative;
-  top: 0;
-  left: 0;
-  display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-  display: table;
-  content: '';
-}
-.slick-track:after
-{
-  clear: both;
-}
-.slick-loading .slick-track
-{
-  visibility: hidden;
-}
-
-.slick-slide
-{
-  display: none;
-  float: left;
   height: 100%;
-  min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-  float: right;
-}
-.slick-slide img
-{
-  display: block;
-}
-.slick-slide.slick-loading img
-{
-  display: none;
-}
-.slick-slide.dragging img
-{
-  pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-  display: block;
-}
-.slick-loading .slick-slide
-{
-  visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-  display: block;
-  height: auto;
-  border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-  display: none;
+  z-index: -1;
+  opacity: 1.9;
 }
 
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item {
+  padding: 24px;
+}
+#clients img {
+  height: 124px;
+}
 .bottom-footer{
   background-color:#272a31;
   border: 1px solid black;
