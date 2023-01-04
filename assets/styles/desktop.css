@@ -343,14 +343,11 @@ body {
 
 }
 /* Clients Section */
-#client-section {
-  position: relative;
-}
+
 
 #client-section::before {
   content: "";
   position: absolute;
-  background: url(https://i.postimg.cc/yN9mcF9m/client.jpg);
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -367,7 +364,7 @@ body {
   padding: 24px;
 }
 #clients img {
-  height: 124px;
+  height: 104px;
 }
 .bottom-footer{
   background-color:#272a31;
