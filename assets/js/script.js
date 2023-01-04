@@ -83,6 +83,15 @@ speakerCardSection.forEach((ele, index) => {
 
 });
 
+const speakerSection = document.getElementById("speakers-section");
+
+const seeMoreBtn =  `
+		<button class="see-more-btn" id="see-more-btn">
+			More <i class="fa-solid fa-chevron-down"></i>
+		</button>
+		`;
+	speakerSection.innerHTML += seeMoreBtn;
+
 $(document).ready(function () {
 	$(".customer-logos").slick({
 	  slidesToShow: 6,
