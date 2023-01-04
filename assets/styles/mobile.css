@@ -93,13 +93,13 @@ body {
     list-style: none;
     margin-left: 20px;
   }
-  .bottom-nav-links{
+
+  .bottom-nav-links {
     margin-top: 70px;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    list-style:none;
   }
 
   a {
@@ -253,21 +253,21 @@ body {
     padding: 0;
   }
 
-  #join{
+  #join {
     box-sizing: border-box;
     background-color: #f72509d2;
     border-radius: 4px;
     padding: 25px;
     max-width: 320px;
-    margin:20px auto; 
+    margin: 20px auto;
     text-align: center;
-    font-weight: 700; 
+    font-weight: 700;
+  }
 
+  .bottom-title {
+    display: none;
   }
-  .bottom-title{
-    display: none
-  }
-  
+
   #program-footer {
     text-transform: uppercase;
     text-decoration: none;

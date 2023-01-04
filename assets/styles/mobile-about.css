@@ -92,13 +92,12 @@ body {
     margin-left: 20px;
   }
 
-  .bottom-nav-links{
+  .bottom-nav-links {
     margin-top: 70px;
-    list-style: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    list-style:none;
+    list-style: none;
   }
 
   .block-tiles li {
