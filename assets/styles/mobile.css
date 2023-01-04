@@ -245,31 +245,21 @@ body {
     padding: 0;
   }
 
-  .bottom-title {
-    visibility: hidden;
-    position: relative;
-    align-items: center;
-  }
-
-  .bottom-title::after {
-    visibility: visible;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    content: "Hiddekel Designs Print Expo Summit";
-    text-decoration: none;
+  #join{
     box-sizing: border-box;
-    margin-top: -70px;
     background-color: #f72509d2;
-    font-size: 18px;
-    font-weight: 600;
-    width: 70%;
-    color: white;
-    margin-left: 100px;
     border-radius: 4px;
-  }
+    padding: 25px;
+    max-width: 320px;
+    margin:20px auto; 
+    text-align: center;
+    font-weight: 700; 
 
+  }
+  .bottom-title{
+    display: none
+  }
+  
   #program-footer {
     text-transform: uppercase;
     text-decoration: none;
