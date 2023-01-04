@@ -92,6 +92,15 @@ body {
     margin-left: 20px;
   }
 
+  .bottom-nav-links{
+    margin-top: 70px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style:none;
+  }
+
   .block-tiles li {
     flex: 0 0 100%;
     line-height: 1;
