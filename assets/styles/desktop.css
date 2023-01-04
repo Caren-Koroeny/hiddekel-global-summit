@@ -210,6 +210,7 @@ body {
     background-color: #e03623;
     margin: 0 auto;
     margin-top: 10px;
+    align-items: center;
   }
 
   .program-container {
@@ -347,10 +348,12 @@ body {
     background-color: #272a31;
     height: 300px;
   }
+ 
 
   .footer-h2 {
     text-align: center;
     color: #fff;
+  
    
   }
 
