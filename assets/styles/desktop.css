@@ -88,7 +88,7 @@ body {
 
 
 .hero-section{
-  background-image: url(./assets/images/mobile_intro_bg.png);
+  background-image: url("/assets/images/mobile_intro_bg.png");
   position: relative;
   padding-bottom: -55px;
   background-position: center;
@@ -134,7 +134,7 @@ body {
   width: 100%;
   font-weight: 900;
   text-transform: uppercase;
-  background: url(./assets/images/orange.jpg);
+  background: url("/assets/images/orange.jpg");
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,7 +170,7 @@ body {
   color: #5e5858;
 }
 .main-programs {
-  background-image:url(./assets/images/prg.jpg);
+  background-image:url("/assets/images/prg.jpg");
   display: flex;
   background-repeat: no-repeat;
   justify-content: center;
