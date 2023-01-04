@@ -349,9 +349,9 @@ body {
   }
 
   .footer-h2 {
-    align-items: center;
+    text-align: center;
     color: #fff;
-    margin-left: 40%;
+   
   }
 
   /* Clients Section */
@@ -379,7 +379,7 @@ body {
   }
 
   .bottom-footer {
-    background-color: #272a31;
+    background-color: black;
     border: 1px solid black;
     height: 200px;
     margin-top: 20px;
