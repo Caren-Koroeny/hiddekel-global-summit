@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo](https://caren-koroeny.github.io/portfolio-template/) -->
+- [Live Demo](https://caren-koroeny.github.io/hiddekel-global-summit/)
 
 ## Loom Recording
  
@@ -82,12 +82,12 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-- Coming Soon ...
- <!-- [git clone](https://github.com/Caren-Koroeny/portfolio-template) -->
+
+ [git clone](git@github.com:Caren-Koroeny/hiddekel-global-summit.git)
 
 ### Usage
 
-Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/portfolio-template/blob/two-sections/index.html) file with your browser of choice.
+Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/hiddekel-global-summit/blob/desktop-mobile-version/index.html) file with your browser of choice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
