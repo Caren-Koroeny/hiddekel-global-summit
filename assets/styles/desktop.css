@@ -88,7 +88,7 @@ body {
 
 
 .hero-section{
-  background-image: url(/assets/images/mobile_intro_bg.png);
+  background-image: url("/assets/images/mobile_intro_bg.png");
   position: relative;
   padding-bottom: -55px;
   background-position: center;
