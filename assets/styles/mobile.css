@@ -308,7 +308,10 @@ body {
     color: #ec5242;
     font-size: 1.7vw;
   }
-
+  .see-more{
+    height: 130px;
+    padding: 30px;
+  }
   .see-more-btn {
     padding: 12px 20px;
     display: flex;
@@ -316,12 +319,13 @@ body {
     justify-content: center;
     gap: 20px;
     width: 100%;
+    
     border: 1px solid #d3d3d3;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #272a31;
+    /* color: #272a31; */
   }
 
   .fa-chevron-down {

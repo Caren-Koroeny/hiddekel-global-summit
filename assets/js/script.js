@@ -86,9 +86,11 @@ speakerCardSection.forEach((ele, index) => {
 const speakerSection = document.getElementById("speakers-section");
 
 const seeMoreBtn =  `
+		<div class="see-more">
 		<button class="see-more-btn" id="see-more-btn">
 			More <i class="fa-solid fa-chevron-down"></i>
 		</button>
+		</div>
 		`;
 	speakerSection.innerHTML += seeMoreBtn;
 

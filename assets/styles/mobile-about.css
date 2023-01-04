@@ -170,7 +170,6 @@ body {
   }
 
   .logo-caption {
-    width: 500px;
     padding: 50px;
   }
 
@@ -191,7 +190,7 @@ body {
   }
 
   .past-expo-text {
-    margin-left: 20px;
+    text-align: center;
     color: #101011;
     padding: 20px;
     font-weight: 200;
