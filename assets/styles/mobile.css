@@ -333,7 +333,7 @@ body {
   }
 
   .bottom-footer {
-    background-color: #272a31;
+    display: none;
   }
 
   .log-hiddekel {
