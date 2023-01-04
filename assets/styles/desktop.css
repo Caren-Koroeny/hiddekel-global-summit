@@ -57,7 +57,7 @@ body {
   margin-left: 25%;
 }
 .logo {
-  margin-left: -90px;
+  margin-left: -200px;
   display: flex;
   align-items: center;
 }
@@ -70,11 +70,11 @@ body {
 .main-nav-links{
   display: flex;
   justify-content: center;
-  margin-right: 250px;
+  gap: 30px;
   padding: 20px 0;
-  margin-top: -100px;
+  margin-top: -80px;
   margin-left: 200px;
-  width: 100%;
+
   gap:20px;
 }
 .menu-link.bottom-first {

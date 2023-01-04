@@ -137,7 +137,7 @@ body {
   }
 
   .hero-message{
-    margin-top: 5%;
+    margin-top: 20%;
     margin-left: 40px;
     background-color: #fdfdf7;
 
@@ -145,7 +145,7 @@ body {
 
   .hero-date{
     padding: 0 40px;
-  
+    margin-top: 15%;
 
   }
 
