@@ -22,9 +22,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Hiddekel-Design <a name="about-project"></a>
 
-** This is an intro part of Portfolio set up and Mobile first.
+** This is a capstone project where I developed a Hiddekel Expo project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
