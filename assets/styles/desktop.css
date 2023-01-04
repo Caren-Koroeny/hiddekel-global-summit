@@ -484,5 +484,8 @@ body {
 .copy-right{
   margin-left:30% ;
 }
+#see-program-link{
+  display: none;
+}
 
 }

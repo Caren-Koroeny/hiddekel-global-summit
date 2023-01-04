@@ -269,4 +269,7 @@ body {
   .hiddekel-text-footer{
     display: none;
   }
+  #see-program-link{
+    display: none;
+  }
 }

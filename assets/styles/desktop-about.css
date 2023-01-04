@@ -288,4 +288,7 @@ color: #272a31;
     padding: 20px;
     margin-top: 50px;
   }
+  #see-program-link{
+    display: none;
+  }
 }
