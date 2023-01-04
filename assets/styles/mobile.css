@@ -130,7 +130,6 @@ body {
     text-transform: uppercase;
     background: url(../images/orange.jpg);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -179,11 +178,10 @@ body {
     gap: 6px;
   }
 
-
   .podium {
     display: flex;
     align-items: center;
-    margin-right: 0 auto;
+    margin-right: auto;
     height: 100px;
     background-image:
       radial-gradient(
@@ -226,7 +224,6 @@ body {
         rgb(40 37 37),
         rgb(40 37 37)
       );
-    height: 100%;
   }
 
   .podium > p {

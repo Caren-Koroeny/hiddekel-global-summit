@@ -79,7 +79,6 @@ body {
     padding: 20px 0;
     margin-top: -80px;
     margin-left: 200px;
-    gap: 20px;
   }
 
   .menu-link.bottom-first {
@@ -142,7 +141,6 @@ body {
     text-transform: uppercase;
     background: url(../images/orange.jpg);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -232,7 +230,6 @@ body {
 
   .all-programs:hover {
     border: 2px solid rgb(214, 71, 19);
-    transform: translate(0.5s);
   }
 
   .podium {
@@ -363,7 +360,6 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
     z-index: -1;
     opacity: 1.9;
   }
@@ -410,10 +406,7 @@ body {
     margin-left: 30%;
   }
 
-  #see-program-link {
-    display: none;
-  }
-  .see-more-btn{
+  .see-more-btn {
     display: none;
   }
 }

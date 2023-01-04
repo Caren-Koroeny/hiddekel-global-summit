@@ -79,7 +79,6 @@ body {
     padding: 50px;
     font-size: 20px;
     color: #272a31;
-    align-items: center;
     border: 1px solid rgb(214, 209, 209);
     width: 800px;
     margin-left: 20%;
@@ -143,9 +142,6 @@ body {
     padding: 50px;
   }
 
-  /* .past-expo{
-  margin-top: 10px;
-} */
   .past-expo-text {
     text-align: center;
     color: #101011;
@@ -177,7 +173,6 @@ body {
     padding: 20px 0;
     margin-top: -80px;
     margin-left: 200px;
-    gap: 20px;
   }
 
   .menu-link.bottom-first {
@@ -189,15 +184,6 @@ body {
     color: #c53f30;
   }
 
-  .line {
-    width: 45px;
-    height: 3px;
-    border-radius: 50px;
-    background-color: #e03623;
-    margin: 0 auto;
-    margin-top: -30px;
-  }
-
   .block-tiles > a {
     color: white;
     text-decoration: none;
@@ -205,7 +191,6 @@ body {
   }
 
   .block-tiles ul {
-    margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
