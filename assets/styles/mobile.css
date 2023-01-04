@@ -103,7 +103,7 @@ body {
   /*Hero section  */
 
   .hero-section{
-    background-image: url(/assets/images/mobile_intro_bg.png);
+    background-image: url(../images/mobile_intro_bg.png);
     background-repeat: no-repeat;
     height: 750px;
     width: 100%;
@@ -129,7 +129,7 @@ body {
     font-size: 35px;
     font-weight: 900;
     text-transform: uppercase;
-    background: url(/assets/images/orange.jpg);
+    background: url(../images/orange.jpg);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -156,13 +156,13 @@ body {
   /* Mobile program section */
   .main-programs{
     margin-top: 60px;
-    background-image:url(/assets/images/prg.jpg);
+    background-image:url(../images/prg.jpg);
   }
   #program-heading{
     color: white;
     text-align: center;
     font-size: 20px;
-  }
+  }url("assets/images/mobile_intro_bg.png")
   .line{
     width: 45px;
     height: 3px;
