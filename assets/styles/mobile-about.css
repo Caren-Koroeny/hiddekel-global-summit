@@ -97,11 +97,6 @@ body {
     line-height: 1;
   }
 
-  .about-hero {
-    background-image: url(../images/mobile_intro_bg.png);
-    background-repeat: no-repeat;
-  }
-
   .about-hero > h1 {
     font-size: 20px;
     font-weight: 700;
