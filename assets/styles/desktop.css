@@ -57,7 +57,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 25%;
+    
   }
 
   .logo {
@@ -375,35 +375,40 @@ body {
   }
 
   #clients img {
-    height: 104px;
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
   }
 
   .bottom-footer {
-    background-color: black;
-    border: 1px solid black;
+    background-color: #fff;
     height: 200px;
     margin-top: 20px;
-    color: #fff;
-    padding-top: 50px;
+    color:rgb(71, 69, 69) ;
+    padding-top: 30px;
     display: flex;
   }
 
   .hiddekel-text-footer > h3 {
     align-items: center;
+    color: #1c1e22;
   }
 
   .footer-logo {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     padding: 20px;
+    /* margin-left: 30; */
   }
-
+  .log-hiddekel{
+    margin-top: -30px;
+  }
   .hiddekel-name {
     font-size: 35px;
   }
 
   .copy-right {
-    margin-left: 30%;
+    margin-left: 20%;
   }
 
   .see-more-btn {
