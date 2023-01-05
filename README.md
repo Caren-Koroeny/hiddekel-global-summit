@@ -22,9 +22,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Hiddekel-Design <a name="about-project"></a>
 
-** This is an intro part of Portfolio set up and Mobile first.
+** This is a capstone project where I developed a Hiddekel Expo project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo](https://caren-koroeny.github.io/portfolio-template/) -->
+- [Live Demo](https://caren-koroeny.github.io/hiddekel-global-summit/)
 
 ## Loom Recording
  
@@ -82,12 +82,12 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-- Coming Soon ...
- <!-- [git clone](https://github.com/Caren-Koroeny/portfolio-template) -->
+
+ [git clone](git@github.com:Caren-Koroeny/hiddekel-global-summit.git)
 
 ### Usage
 
-Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/portfolio-template/blob/two-sections/index.html) file with your browser of choice.
+Download or fork the repo Open the [index.html](https://github.com/Caren-Koroeny/hiddekel-global-summit/blob/desktop-mobile-version/index.html) file with your browser of choice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,9 +133,7 @@ If you like this project click a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank [Microverse Tutorials](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/hello_microverse_project)
+I would like to thank [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

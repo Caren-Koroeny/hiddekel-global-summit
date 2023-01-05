@@ -1,6 +1,6 @@
 const humberger = document.querySelector(".humberger-menu");
-const navMenu = document.querySelector(".lower-menu-mobile");
-const menuItem = document.querySelectorAll(".menu-link-lower");
+const navMenu = document.querySelector(".bottom-menu-mobile");
+const menuItem = document.querySelectorAll(".menu-link-bottom");
 
 // Open the pop up menu
 humberger.addEventListener("click", () => {
@@ -82,3 +82,17 @@ speakerCardSection.forEach((ele, index) => {
 	card.appendChild(cardContainer);
 
 });
+
+const speakerSection = document.getElementById("speakers-section");
+
+const seeMoreBtn =  `
+		<div class="see-more">
+		<button class="see-more-btn" id="see-more-btn">
+			More <i class="fa-solid fa-chevron-down"></i>
+		</button>
+		</div>
+		`;
+	speakerSection.innerHTML += seeMoreBtn;
+
+
+  
